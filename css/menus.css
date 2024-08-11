@@ -1,6 +1,59 @@
-.card{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+.menus-card{
+    background-color: white;
+    width: 140px;
+    padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px 2px #2d334a ;
+    border: 0.5px solid #e3f6f5;
+}
+
+.menus-card:hover{
+    box-shadow: -5px 5px 10px 1px #131620;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.menus-img{
+    height: 90px;
+    width: 140px;
+    display: block;
+    margin: 10px auto;
+}
+
+.menus-title{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.menus-description{
+    font-size: 12px;
+    margin: 4px;
+}
+
+.menu-order-btn{
+    background-color: #4b258d ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 10px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+.menu-order-btn:hover{
+    border-radius: 15px;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+.menus-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
